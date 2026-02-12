@@ -135,40 +135,67 @@ class SubEntryPanel(wx.Panel):
         # Effect 1
         self.effect_1_eepk_id = self.add_num_entry(effect_panel, 'Effect 1 EEPK Id')
         self.effect_1_skill_id = self.add_num_entry(effect_panel, 'Effect 1 Skill Id')
-        self.effect_1_skill_type = self.add_single_selection_entry(effect_panel, 'Effect 1 Skill Type', choices={
+        self.effect_1_skill_type = self.add_single_selection_entry(effect_panel, 'Effect 1 Skill Type', majorDimension=4, choices={
             'Global': 0x0,
             'StageBG': 0x1,
             'Player': 0x2,
+            'Unknown (0x3)': 0x3,
+            'Unknown (0x4)': 0x4,
             'Super': 0x5,
             'Ultimate': 0x6,
             'Evasive': 0x7,
-            'Ki Blast': 0x9
+            'Unknown (0x8)': 0x8,
+            'Ki Blast': 0x9,
+            'Unknown (0xA)': 0xa,
+            'Unknown (0xB)': 0xb,
+            'Unknown (0xC)': 0xc,
+            'Unknown (0xD)': 0xd,
+            'Unknown (0xE)': 0xe,
+            'Unknown (0xF)': 0xf,
         })
 
         # Effect 2
         self.effect_2_eepk_id = self.add_num_entry(effect_panel, 'Effect 2 EEPK Id')
         self.effect_2_skill_id = self.add_num_entry(effect_panel, 'Effect 2 Skill Id')
-        self.effect_2_skill_type = self.add_single_selection_entry(effect_panel, 'Effect 2 Skill Type', choices={
+        self.effect_2_skill_type = self.add_single_selection_entry(effect_panel, 'Effect 2 Skill Type', majorDimension=4, choices={
             'Global': 0x0,
             'StageBG': 0x1,
             'Player': 0x2,
+            'Unknown (0x3)': 0x3,
+            'Unknown (0x4)': 0x4,
             'Super': 0x5,
             'Ultimate': 0x6,
             'Evasive': 0x7,
-            'Ki Blast': 0x9
+            'Unknown (0x8)': 0x8,
+            'Ki Blast': 0x9,
+            'Unknown (0xA)': 0xa,
+            'Unknown (0xB)': 0xb,
+            'Unknown (0xC)': 0xc,
+            'Unknown (0xD)': 0xd,
+            'Unknown (0xE)': 0xe,
+            'Unknown (0xF)': 0xf,
         })
 
         # Effect 3
         self.effect_3_eepk_id = self.add_num_entry(effect_panel, 'Effect 3 EEPK Id')
         self.effect_3_skill_id = self.add_num_entry(effect_panel, 'Effect 3 Skill Id')
-        self.effect_3_skill_type = self.add_single_selection_entry(effect_panel, 'Effect 3 Skill Type', choices={
+        self.effect_3_skill_type = self.add_single_selection_entry(effect_panel, 'Effect 3 Skill Type', majorDimension=4, choices={
             'Global': 0x0,
             'StageBG': 0x1,
             'Player': 0x2,
+            'Unknown (0x3)': 0x3,
+            'Unknown (0x4)': 0x4,
             'Super': 0x5,
             'Ultimate': 0x6,
             'Evasive': 0x7,
-            'Ki Blast': 0x9
+            'Unknown (0x8)': 0x8,
+            'Ki Blast': 0x9,
+            'Unknown (0xA)': 0xa,
+            'Unknown (0xB)': 0xb,
+            'Unknown (0xC)': 0xc,
+            'Unknown (0xD)': 0xd,
+            'Unknown (0xE)': 0xe,
+            'Unknown (0xF)': 0xf,
         })
 
         # Pushback
